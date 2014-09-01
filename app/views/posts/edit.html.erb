@@ -1,6 +1,27 @@
+
+
+<div class="container-fluid">
+<div class="sucess">
 <h1>Editing post</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @post %> |
-<%= link_to 'Back', posts_path %>
+<%=form_tag(@post,id: "edit_post_#{@post.id}",class: "edit_post", method: "patch", role: "form") do %>
+   <div class="field">
+   <%= label_tag("post_title", "Title",) %>
+   <%= text_field_tag("post[title]", @post.title, class: "form-control",placeholder: "Text input") %>
+   </div>
+   <br>
+   <div class="field">
+   <%= label_tag("exampleInputEmail1", "Body") %>
+   <%= text_area_tag("post[body]", @post.body, class: "form-control",rows: "3", placeholder: "Text input") %>
+   </div>
+   <br>
+   <div class="actions">
+    <%= submit_tag("Update Post") %>
+    </div>
+<% end %>
+<br>
+<%= link_to 'Show', @post, class: "btn btn-success btn-lg active" , role: "button" %>
+<br>
+<br>
+<%= link_to 'Back', posts_path, class: "btn btn-info btn-lg active" , role: "button" %>
+</div>
+</div>
