@@ -2,10 +2,10 @@
 <br>
 <div id='cssmenu'>
 <ul>
-   <li class='active'><a href='#'><span>Home</span></a></li>
-   <li><a href='#'><span>Products</span></a></li>
-   <li><a href='#'><span>Company</span></a></li>
-   <li class='last'><a href='#'><span>Contact</span></a></li>
+   <li class='active'><a href='/posts'><span>Home</span></a></li>
+   <li><a href='#'><span>Video</span></a></li>
+   <li><a href='#'><span>Collage</span></a></li>
+   <li class='last'><a href='https://www.facebook.com/honeyslawyer'><span>Contact</span></a></li>
 </ul>
 </div>
 <br>
@@ -16,6 +16,7 @@
 <br>
 <br>
 </div>
+
 <div class="container-fluid">
 <div class="sucess">
 <h1>New post</h1>
