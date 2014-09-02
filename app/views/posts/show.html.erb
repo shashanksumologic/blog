@@ -5,17 +5,12 @@
 
 <div class="container-fluid">
 <p class="lead">
-<h2>Written By:</h2>
-<p class="text-info">
-<%= @post.title %>
-</p>
-</p>
-<p class="lead">
-<h2>Body:</h2>
-<p class="text-success">
-<%= @post.body %>
-</p>
-</p>
+<blockquote>
+  <p class="text-success">
+  <%= @post.body %>
+  </p>
+  <footer>Written By: <cite title="Source Title"><%= @post.title %></cite></footer>
+</blockquote>
 <br>
 <br>
 <br>
