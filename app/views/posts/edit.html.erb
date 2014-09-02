@@ -5,7 +5,7 @@
 <h1>Editing post</h1>
 <%=form_tag(@post,id: "edit_post_#{@post.id}",class: "edit_post", method: "patch", role: "form") do %>
    <div class="field">
-   <%= label_tag("post_title", "Title",) %>
+   <%= label_tag("post_title", "Written By",) %>
    <%= text_field_tag("post[title]", @post.title, class: "form-control",placeholder: "Text input") %>
    </div>
    <br>

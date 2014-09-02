@@ -1,28 +1,10 @@
-<div class="shank">
-<br>
-<div id='cssmenu'>
-<ul>
-   <li class='active'><a href='/posts'><span>Home</span></a></li>
-   <li><a href='#'><span>Video</span></a></li>
-   <li><a href='#'><span>Collage</span></a></li>
-   <li class='last'><a href='https://www.facebook.com/honeyslawyer'><span>Contact</span></a></li>
-</ul>
-</div>
-<br>
-<div id="headings">
-<h1>Happy birthday!!</h1>
-<h3>Dedicated to you by your loved ones!</h3>
-</div>
-<br>
-<br>
-</div>
 
 <div class="container-fluid">
 <div class="sucess">
 <h1>New post</h1>
 <%=form_tag(@post,id: "edit_post_#{@post.id}",class: "new_post", role: "form") do %>
    <div class="field">
-   <%= label_tag("post_title", "Title",) %>
+   <%= label_tag("post_title", "Written By",) %>
    <%= text_field_tag("post[title]", @post.title, class: "form-control",placeholder: "Text input") %>
    </div>
    <br>
