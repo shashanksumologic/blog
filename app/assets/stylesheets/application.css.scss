@@ -26,7 +26,7 @@ body{
  background: repeat;
 }
 .shank{
-background-image: url(<%= asset_path 'image.png' "data-turbolinks-track" => true %>)
+background-image: url('wow.jpg');
 background-size: 40%;
 background-repeat: repeat;
 }
