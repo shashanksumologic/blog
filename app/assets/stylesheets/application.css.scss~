@@ -25,7 +25,7 @@ body{
  margin: 0;
  background: repeat;
 }
-.shank{
+.shui{
 background-image: url('wow.jpg');
 background-size: 40%;
 background-repeat: repeat;
