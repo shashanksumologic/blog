@@ -32,7 +32,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
-
+gem 'autoprefixer-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
