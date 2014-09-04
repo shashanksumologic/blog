@@ -28,7 +28,7 @@ body{
  background: repeat;
 }
 .shank{
-background-image: url('hii.jpg');
+background-image: url('wow.jpg');
 background-size: 25%;
 background-repeat: repeat;
 }
