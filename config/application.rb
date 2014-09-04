@@ -8,24 +8,6 @@ Bundler.require(*Rails.groups)
 
 module Blog
   class Application < Rails::Application
-  config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif,
-                                  "fontawesome-webfont.ttf",
-                                 "fontawesome-webfont.eot",
-                                 "fontawesome-webfont.svg",
-                                 "fontawesome-webfont.woff")
-
-
-
-  config.assets.precompile << Proc.new do |path|
-      if path =~ /\.(css|js|css.map|min.css|css.scss|js|min.js|js.coffee)\z/
-        full_path = Rails.application.assets.resolve(path).to_path
-        app_assets_path = Rails.root.join('app', 'assets').to_path
-          puts "including asset: " + full_path
-          true
-      else
-        false
-      end
-    end
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
