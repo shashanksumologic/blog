@@ -16,7 +16,7 @@
       
     </tr>
   </thead>
-
+  <!--- Hey,My message will be here...Since i dont want the world to see it...happy birthday :) i really care for you...but then it seems one sided and i dont want it to be so...so better hoga we stay away..you stay with ppl you enjoi with and i stay away..samne wala kuch bhi soch rha ho kuch bhi kr rha ho..uske dimaag mai kuch bhi chl rha ho..u always come up with mjhe baat nhi krni..ya ill stay away..how selfish..past few days say maine koi call ni kra..n mera phone off h(i knw u havent noticed..and i dnt think ull ever do so...have an amzing bday :) happy bday :) ----> 
   <tbody>
     <% @posts.each do |post| %>
       <tr>
