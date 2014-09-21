@@ -20,13 +20,7 @@
 </div>
 <hr>
 
-<%= form_for([@post, Comment.new], remote: true , role: "form") do |f| %>
-  <div class="field">
-  <p><%= f.label :body, "New Comment" %><br><br>
-     <%= f.text_area :body , class: "form-control",rows: "3", placeholder: "Text input" %>
-  </p>
-  <p><%= f.submit "Add Comment" %></p>
-  </div>
+
 <% end %>
 <hr>
 <%= link_to 'Edit',edit_post_path(@post) , class: "btn btn-info btn-lg active" , role: "button" %>
